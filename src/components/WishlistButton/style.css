@@ -1,0 +1,32 @@
+.wishlist-button {
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+.wishlist-button:hover circle, .wishlist-button:hover path {
+  fill: #FEE5EC;
+  transition: fill 0.3s ease;
+}
+
+.wishlist-button:hover path {
+  stroke: #DA4B4F;
+  transition: stroke 0.3s ease;
+}
+
+.wishlist-button.wished circle {
+  fill: #DA4B4F;
+  transition: fill 0.3s ease;
+}
+
+.wishlist-button.wished:hover circle {
+  fill: #C22539;
+  transition: fill 0.3s ease;
+}
+
+.wishlist-button.wished path {
+  fill: #ffffff;
+  stroke: #ffffff;
+  transition: stroke 0.3s ease;
+}
